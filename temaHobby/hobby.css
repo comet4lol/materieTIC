@@ -1,0 +1,33 @@
+body {
+	background-color: #1d428a;
+	font-family: 'Oswald', sans-serif;
+	text-align: justify;
+}
+h1 {
+	font-weight: 700;
+	font-size: 6em;
+	text-decoration: underline;
+	margin: 0.4em 0;
+}
+img {
+	width: 20%;
+	height: 20%;
+}
+main {
+	background-color: #8bc7e3;
+
+	border: 30px solid #c8102e;
+	border-radius: 1.20%;
+	align-items: space-between;
+	padding: 1em;
+}
+#definitie {
+	color: whitesmoke;
+}
+#echipe {
+	border: 2px solid #dfbb85;
+	border-radius: 3%;
+}
+.minge {
+	color: #fb8a17;
+}
