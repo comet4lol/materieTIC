@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofoliu Sosu Cristian</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600&display=swap" rel="stylesheet">
+</head>
+<style>
+   html,
+   body {
+    margin: 0;
+    padding: 0;
+    background-color: #262626;
+    }
+
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+</style>
+<body>
+    <script>
+        window.onload = function () {
+                Particles.init({
+                    selector: '.background',
+                    connectParticles:true,
+                    color: ["#d53a33", "#e79c10", "#1d9099"]
+                });
+            };
+    </script>
+    <h1>Portofoliu TIC </h1>
+    <canvas class="background"></canvas>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
+</body>
+</html>
