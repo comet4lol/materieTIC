@@ -13,6 +13,8 @@
     margin: 0;
     padding: 0;
     background-color: #262626;
+    font-family: "Source Sans Pro", sans-serif;
+
     }
 
 .background {
@@ -20,7 +22,28 @@
   display: block;
   top: 0;
   left: 0;
-  z-index: 0;
+}
+.mainPage {
+    position: absolute; 
+    transform: translateY(15%);
+    top: 0;
+    left: 0;
+    left: 0; 
+    right: 0; 
+    margin: auto;
+    width: 80%;
+    height: max-content;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+    padding: 2em;
+    z-index: 10;
+}
+.heroText {
+    text-transform: uppercase;
+    font-size:3em;
+    letter-spacing: 0.3em;
 }
 
 </style>
@@ -34,8 +57,37 @@
                 });
             };
     </script>
-    <h1>Portofoliu TIC </h1>
+
     <canvas class="background"></canvas>
+    <main class="mainPage">
+        <section class="heroText">
+            <h1>Portofoliu TIC  - Sosu Cristian </h1> </a>
+        </section>
+        <hr>
+        <section class="mainContent">
+            <p>Aici este o lista cu fiecare tema/proiect la TIC facut de mine. Proiectele sunt adaugate manual, asa ca pentru cele mai up to date proiecte recomand <a href="https://github.com/comet4lol/materieTIC"> linkul acesta</a>!</p>
+            <h3>Proiecte</h3>
+            <ol>
+                <li>
+                    <h1>temaHobby </h1> 
+                    <ul>
+                        <li> <a href="https://comet4lol.github.io/materieTIC/temaHobby/hobby.html"> <h1>hobby.html</h1></a></li>
+                        <li> <a href="https://comet4lol.github.io/materieTIC/temaHobby/index.html"> <h1>index.html</h1></a></li>
+                        <li> <a href="https://comet4lol.github.io/materieTIC/temaHobby/rad.html"> <h1>rad.html</h1></a></li>
+
+                    </ul>
+                </li>
+                
+                <li><a href="https://comet4lol.github.io/materieTIC/temaRevista/pagina.html"><h1>temaRevista </h1> </a></li>
+                <li><a href="https://comet4lol.github.io/materieTIC/temaSAVURETARDATU/ionlucacaragiale.html"><h1>temaSavu </h1> </a></li>
+                <li><a href="https://comet4lol.github.io/materieTIC/temaScriitor/blog.html"><h1>temaScriitor </h1> </a></li>
+                <li><a href="https://comet4lol.github.io/materieTIC/temaSite/paginaUnu.html"><h1>temaSite </h1> </a></li>
+                <li><a href="https://comet4lol.github.io/materieTIC/temaTabel/tabel.html"><h1>temaTabel </h1> </a></li>
+                <li><a href="https://comet4lol.github.io/materieTIC/temaTiglar/index.html"><h1>temaTiglar </h1> </a></li>
+            </ol>
+        </section>
+
+    </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.2/particles.min.js"></script>
 </body>
 </html>
